@@ -48,7 +48,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-button{
+button, .nupp {
     font-size: 20px;
     background-color: #f2f2f2;
     color: black;
@@ -58,11 +58,9 @@ button{
     cursor: pointer;
     display: inline-block; 
     margin: 10px auto; 
-}
-
-.container a {
-    display: block; 
-    text-align: center; 
+    
+    text-decoration: none; /* Võtab lingi allkriipsu ära */
+    line-height: normal;   /* Parandab teksti kõrgust */
 }
 
 .container {
@@ -152,4 +150,11 @@ h1 {
 .submit-btn:hover {
     background-color: #555;
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;   
 }
